@@ -1,0 +1,113 @@
+*{
+	padding : 0;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+
+body {
+background-image: url('./image/nueve2.jpg');
+text-align: center;
+Font-family: futura;
+background-size: cover;
+}
+
+h1 {
+	color: black;
+	front-size: 48px;
+	front-weight: bold;
+	margin :24px 24px;
+	text-shadow: 2px 0px darkgrey;
+}
+h2 {
+	font-size: 32px;
+	color: black;
+	text-transform: uppercase;
+	text-shadow: 3px 0px lightgrey;
+}
+
+.profile {
+	width: 150px;
+	border-radius: 50px;
+	box-shadow: 10px 10px 30px rgba(255, 99, 122, 0.8);
+}
+
+.passion{
+	margin: 10px;
+	border: 3px solid white;
+	width: 100px;
+	height: 120px;
+	border-radius: 50px;
+	box-shadow: 10px 10px 30px rgba(255, 99, 122, 0.8);
+
+}
+
+.button {
+  background: lightcoral;
+  color: white;
+  font-size: 30px;
+  text-decoration:none;
+  padding: 10px 15px;
+  margin: 24px;
+  border-radius: 10px;
+
+}
+
+a:hover {
+	background : whitesmoke;
+	color:  lightpink;
+}
+
+
+p{
+	margin: 10px 0;
+	font-size:  18px;
+	text-align: center;
+
+}
+ol {
+	display: inline-flex;
+	padding: 0;
+}
+
+li{
+	margin: 15px 24px;
+	color: dark;
+}
+
+.container {
+	width: 700px;
+	margin: 0 auto;
+}
+
+.card-white {
+	background: lightpink;
+	margin: 24px;
+	padding: 24px;
+	border-radius: 24px;
+	box-shadow: 12px 12px 12px rgba(255,99,122,0.8)
+
+}
+ 
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 300px;
+	}
+}
+
+iframe{
+		box-shadow: 8px 8px 8px rgba(232,112,122,0.8);
+		border radius: 50px;
+		padding: 20px rgba(255,99,122,0.8);
+		background: lightpink;
+
+
+}
+
+
